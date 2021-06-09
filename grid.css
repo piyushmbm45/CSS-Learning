@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid black;
+    background-color: darkcyan;
+
+}
+.box{
+    text-align: center;
+    background-color: darkgoldenrod;
+    border: 1px solid white;
+}
+.btn{
+    background-color: yellow;
+    box-shadow: thistle;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.item{
+    display: block;
+    background-color: tomato;
+    font: 20px;
+    border: 2px solid black;
+    max-width: max-content;
+    padding: 15px;
+    border-radius: 10px;
+
+}
