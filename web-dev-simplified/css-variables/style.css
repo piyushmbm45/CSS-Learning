@@ -1,0 +1,31 @@
+:root{
+    --div-background-color: red;
+    --text-color: blue;
+    --div-margin: 10px;
+    --div-padding: 10px;
+}
+/* if we didn't define the variable before then we fallback the value like below */
+body{
+    background-color: var(--background-color, hsl(100 50% 40%));
+}
+
+.child{
+    background-color: var(--div-background-color);
+    color: var(--text-color);
+}
+
+.one{
+    --div-background-color: hsl(150 20% 50%); /* we can define new value of any varible */
+    --text-color: hsl(220 50% 90%)
+}
+
+/* one of the best use of varibles is that if we change any value of variable in root it will 
+automatically changes at all places */
+.one-one{
+    margin: var(--div-margin);
+    padding: var(--div-padding);
+}
+.one-two{
+    margin: var(--div-margin);
+    padding: var(--div-padding);
+}
