@@ -1,0 +1,15 @@
+.parent{
+    background-color: hsl(200 100% 20%);
+    height: 400px;
+    width: 400px;
+}
+.child{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    transition: transform 1s ease-in-out 1s;
+}
+
+.parent:hover .child{
+    transform: translateX(100%);
+}
