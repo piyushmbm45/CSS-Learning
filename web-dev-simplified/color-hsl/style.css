@@ -1,0 +1,10 @@
+.main{
+    color: aliceblue;
+    padding: 50px;
+    background-color: hsl(0 80% 90%);
+    text-align: center;
+}
+
+div:hover{
+    background-color: hsl(0 80% 85%);
+}
