@@ -28,13 +28,14 @@ body{
 .one{
     /* flex-shrink: 1; */
     background-color: rebeccapurple;
-    flex: 2 0 200px;
+    /* flex: 2 0 200px; */
 
 }
 .two{
     /* flex-shrink: 2; */
     background-color: rosybrown;
-    flex: 0 2 200px;
+    /* flex: 0 2 200px; */
+    align-self: flex-start;
 }
 .three{
     /* flex-shrink: 1; */

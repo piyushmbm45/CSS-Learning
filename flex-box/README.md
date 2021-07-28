@@ -57,5 +57,8 @@
     - flex
         - shorthand of above three
             - <flex-grow> <flex-shrink> <flex-basis>
+
+    - align-self
+        - set positioning for individual child
     
     
