@@ -10,3 +10,15 @@
         - cloumn
         - row-reverse
         - cloumn-reverse
+
+    - flex-wrap
+        - wrap
+            - fits the content in the parent
+        - no-wrap
+
+    - flex-flow
+        - shorthand of above two - order
+            1. direction
+            2. wrap  
+
+    

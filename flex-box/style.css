@@ -8,8 +8,7 @@ body{
 .parent{
     background-color: chartreuse;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
 }
 .child{
     padding: 15px;
