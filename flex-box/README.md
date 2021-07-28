@@ -50,7 +50,12 @@
         - opposite to flex grow
         - width and flex basis should be present
     
-    
 
+    - flex-basis
+        - sets the width(length) of the child
+
+    - flex
+        - shorthand of above three
+            - <flex-grow> <flex-shrink> <flex-basis>
     
     
