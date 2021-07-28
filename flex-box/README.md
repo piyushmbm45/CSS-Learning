@@ -21,4 +21,11 @@
             1. direction
             2. wrap  
 
-    
+    - justify-content - (x-axis & horizontal axis)
+        - flex-start(by default)
+            - postion of child in parent box
+        - flex-end
+        - center
+        - space-between
+        - space-around
+        - space-evenly
