@@ -45,4 +45,12 @@
     - flex-grow
         - sets the width of child to ocuupy the space
         - you can use 1,2,3 or in points also .5,.7 etc.
+
+    - flex-shrink
+        - opposite to flex grow
+        - width and flex basis should be present
+    
+    
+
+    
     
