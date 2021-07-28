@@ -9,6 +9,7 @@ body{
     background-color: chartreuse;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .child{
     padding: 15px;
