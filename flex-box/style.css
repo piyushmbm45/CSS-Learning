@@ -21,9 +21,15 @@ body{
     background-color: brown;
     border-radius: 10px;
 }
+.one{
+    flex-grow: 1;
+}
 .two{
-    padding: 50px;
+    flex-grow: 1;
 }
 .three{
-    padding: 50px;
+    flex-grow: 1;
+}
+.four{
+    flex-grow: 1;
 }

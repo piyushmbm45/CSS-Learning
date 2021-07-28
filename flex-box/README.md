@@ -37,3 +37,12 @@
         - center
         - baseline
         - stretch( by default)
+
+
+- For Childs
+    - there are five properties for child in flex box
+
+    - flex-grow
+        - sets the width of child to ocuupy the space
+        - you can use 1,2,3 or in points also .5,.7 etc.
+    
