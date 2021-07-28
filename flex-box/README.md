@@ -23,9 +23,17 @@
 
     - justify-content - (x-axis & horizontal axis)
         - flex-start(by default)
-            - postion of child in parent box
+            - position of child in parent box
         - flex-end
         - center
         - space-between
         - space-around
         - space-evenly
+
+    - align-items - (y-axis & vertical axis)
+        - flex-start
+            - position of child in parent box
+        - flex-end
+        - center
+        - baseline
+        - stretch( by default)

@@ -7,13 +7,23 @@ body{
 
 .parent{
     background-color: chartreuse;
+    height: 300px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
+    /* align-items: baseline; */
+
 }
 .child{
     padding: 15px;
     margin: 10px;
     background-color: brown;
     border-radius: 10px;
+}
+.two{
+    padding: 50px;
+}
+.three{
+    padding: 50px;
 }
