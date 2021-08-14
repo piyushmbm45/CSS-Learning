@@ -27,10 +27,14 @@
         .nested{
             display: grid;
             grid-template-columns: repeat(3,1fr);
+            padding: 1rem;
+            gap: 1rem;
+            grid-auto-rows: minmax(100px,auto);
         }
         .nested > div{
             background-color: chocolate;
             border: 1px solid black;
+            padding: 1rem;
         }
         .nested div:nth-child(odd){
             background-color: crimson;
@@ -53,9 +57,23 @@
                 Lorem ipsum dolor sit.
             </div>
             <div class="sub-grid">
+                Lorem ipsum dolor sit. lorem20
+            </div>
+            <div class="sub-grid">
                 Lorem ipsum dolor sit.
             </div>
             <div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div><div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div><div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div><div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div><div class="sub-grid">
                 Lorem ipsum dolor sit.
             </div>
         </div>
