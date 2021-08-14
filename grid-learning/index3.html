@@ -19,17 +19,21 @@
             grid-template-columns: 1fr 1fr 1fr;
             gap: 1rem;
             grid-auto-rows: minmax(100px,auto);
-            justify-items: start;
-            align-items: start;
+            justify-items: stretch;
+            align-items: stretch;
         }
 
         .grid-container>div {
             background-color: blanchedalmond;
         }
-
         .grid-container div:nth-child(odd) {
             background-color: burlywood;
         }
+        .box-1{
+            align-self: start;
+            justify-self: start;
+        }
+
     </style>
 </head>
 
