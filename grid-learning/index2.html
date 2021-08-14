@@ -7,30 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Concept</title>
     <style>
-        .grid-container{
+        .grid-container {
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 1rem;
             /* height of column */
-            grid-auto-rows: 100px;
-        }
-        .grid-container > div{
-            background-color: rgb(189, 231, 217);
-        }
-        .grid-container div:nth-child(odd){
-            background-color: azure;
+            /* grid-auto-rows: 100px; */
+            grid-auto-rows: minmax(100px, auto);
         }
 
+        .grid-container>div {
+            background-color: rgb(189, 231, 217);
+        }
+
+        .grid-container div:nth-child(odd) {
+            background-color: azure;
+        }
     </style>
 </head>
 
 <body>
     <div class="grid-container">
-        <div class="grid-items grid-items-1">Lorem ipsum dolor sit.
+        <div class="grid-items grid-items-1">Lorem ipsum dolor sit. Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Dignissimos, facilis impedit quis omnis magni modi placeat in eos fugit iste!
         </div>
-        <div class="grid-items grid-items-2">Lorem ipsum dolor sit amet.</div>
+        <div class="grid-items grid-items-2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Ullam magnam molestias quidem perspiciatis fugit dolorem, quod est amet sequi praesentium
+            aliquid non quasi at laboriosam temporibus, perferendis eaque voluptatum dolorum officiis aperiam
+            accusantium rem expedita. Laboriosam cumque dignissimos iste aperiam?</div>
         <div class="grid-items grid-items-3">Lorem ipsum dolor sit.</div>
-        <div class="grid-items grid-items-4">Lorem ipsum dolor sit.</div>
+        <div class="grid-items grid-items-4">Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Ducimus, dolore amet. Porro odit ab eum provident fugit commodi dicta totam expedita magni quo fuga, dolor
+            aspernatur ratione autem est eos.</div>
         <div class="grid-items grid-items-5">Lorem ipsum dolor sit.</div>
         <div class="grid-items grid-items-6">Lorem ipsum dolor sit.</div>
 
