@@ -16,13 +16,26 @@
             grid-auto-rows: minmax(100px, auto);
         }
 
-        .grid-container>div {
+        .grid-container > div {
             background-color: rgb(189, 231, 217);
         }
 
         .grid-container div:nth-child(odd) {
             background-color: azure;
         }
+
+        .nested{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        .nested > div{
+            background-color: chocolate;
+            border: 1px solid black;
+        }
+        .nested div:nth-child(odd){
+            background-color: crimson;
+        }
+
     </style>
 </head>
 
@@ -35,7 +48,17 @@
             adipisicing elit. Ullam magnam molestias quidem perspiciatis fugit dolorem, quod est amet sequi praesentium
             aliquid non quasi at laboriosam temporibus, perferendis eaque voluptatum dolorum officiis aperiam
             accusantium rem expedita. Laboriosam cumque dignissimos iste aperiam?</div>
-        <div class="grid-items grid-items-3">Lorem ipsum dolor sit.</div>
+        <div class="grid-items grid-items-3 nested">
+            <div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div>
+            <div class="sub-grid">
+                Lorem ipsum dolor sit.
+            </div>
+        </div>
         <div class="grid-items grid-items-4">Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             Ducimus, dolore amet. Porro odit ab eum provident fugit commodi dicta totam expedita magni quo fuga, dolor
             aspernatur ratione autem est eos.</div>
