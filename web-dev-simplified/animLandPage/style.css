@@ -4,35 +4,52 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: sans-serif;
+    --nav-load-time: 300ms;
 }
 
-nav{
+nav {
     background-color: cadetblue;
     color: white;
+    animation: nav-load var(--nav-load-time) ease-in-out;
 }
 
 
-nav ul{
+nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin: 0 10px;
     padding: 10px;
 }
-nav a{
+
+nav a {
     color: inherit;
 }
-nav li:hover{
+
+nav li:hover {
     background-color: #ffffff44;
 }
 
-main{
+main {
     margin: 30px;
     padding: 10px;
 }
-article{
+
+article {
     padding: 10px;
+}
+
+
+@keyframes nav-load {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
 }
