@@ -6,6 +6,7 @@
     font-family: sans-serif;
     --nav-load-time: 300ms;
     --nav-link-time: 500ms;
+    --article-load-time: calc(var(--nav-load-time)+ var(--nav-link-time))
 }
 
 nav {
@@ -52,6 +53,18 @@ nav li:hover {
 main {
     margin: 30px;
     padding: 10px;
+}
+h1{
+    animation: heading 300ms ease-in 500ms;
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+p{
+    animation: para 400ms ease-out 700ms;
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
 }
 
 article {
@@ -107,5 +120,39 @@ article {
     }
     100%{
         transform: translateX(0);
+    }
+}
+
+
+
+/*  section animation */
+
+@keyframes heading {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(-10px);
+        opacity: .5;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes para {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(-10px);
+        opacity: .5;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
     }
 }
