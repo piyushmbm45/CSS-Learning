@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: cadetblue;
+    color: white;
+}
+
+
+nav ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin: 0 10px;
+    padding: 10px;
+}
+nav a{
+    color: inherit;
+}
+nav li:hover{
+    background-color: #ffffff44;
+}
+
+main{
+    margin: 30px;
+    padding: 10px;
+}
+article{
+    padding: 10px;
+}
