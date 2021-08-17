@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main{
+    background-color: rgb(120, 218, 243);
+    height: 600px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+img{
+    animation: wheel 2s infinite linear;
+}
+
+
+@keyframes wheel {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
