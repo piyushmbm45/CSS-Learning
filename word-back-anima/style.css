@@ -21,4 +21,15 @@ body{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    animation: moveBg 9s linear infinite;
+    -webkit-animation: moveBg 9s linear infinite;
+}
+
+@keyframes moveBg {
+    to{
+        background-position: 0% 30%;
+    }
+    from{
+        background-position: 100% 50%;
+    }
 }
